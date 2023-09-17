@@ -1,0 +1,10 @@
+.background-image-homepage {
+  position: fixed;
+  background-image: url(../backgrounds/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  bottom: -80px;
+  left: 0;
+  right: 0;
+}

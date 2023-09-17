@@ -1,0 +1,46 @@
+.kilde-info *{
+  font-family: Arial;
+}
+
+.kilde-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-top: 0;
+}
+
+.kilde-avsnitt-1 {
+  margin-bottom: 50px;
+}
+
+.kilde-underoverskrift {
+  font-size: 20px;
+  font-size: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.kilde-info {
+  display: inline-block;
+  margin-top: 130px;
+  margin-left: 40px;
+  color: rgb(64, 253, 0);
+  padding: 20px 30px;
+  background-color: black;
+  border: solid;
+  border-radius: 10px;
+}
+
+.kilde-i-underoverskrift:link,
+.kilde-i-underoverskrift:visited,
+.kilde-i-underoverskrift:hover,
+.kilde-i-underoverskrift:active,
+li a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 17px;
+  margin-bottom: 10px;
+}

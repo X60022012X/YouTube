@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'HACKED';
+  src: url('HACKED.woff2') format('woff2'),
+      url('HACKED.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body *{
+  font-family: 'HACKED';
+}
+
+body {
+  background-color: rgb(63, 63, 63);
+}
+
+.container {
+  display: grid;
+  position: fixed;
+  grid-template-columns: repeat(4, 150px);
+  column-gap: 50px;
+  justify-content: center;
+  background-color: rgb(29, 29, 29);
+  padding: 15px;
+  height: 50px;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-option-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+}
+
+.navbar-option {
+  font-size: 24px;
+  background-color: rgb(64, 253, 0);
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  height: 40px;
+  width: 150px;
+  vertical-align: middle;
+  transition: all 0.15s ease-out;
+}
+
+.navbar-option:hover {
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+height: 50px;
+width: 200px;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+.navbar-option:active {
+color: rgb(64, 253, 0);
+background-color: rgb(0, 0, 0);
+border-style: solid;
+border-width: 1px;
+border-color: rgb(64, 253, 59);
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+transition: box-shadow 0.5s ease-out;
+}
+
+#main-navbar-option {
+  font-size: 24px;
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(64, 253, 59);
+  color: rgb(64, 253, 59);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+  height: 50px;
+  width: 200px;
+  vertical-align: middle;
+  transition: all 0.5s ease-out;
+}
+
+a, 
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
