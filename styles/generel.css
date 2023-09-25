@@ -1,14 +1,13 @@
 @font-face {
   font-family: 'HACKED';
-  src: url('HACKED.woff2') format('woff2'),
-      url('HACKED.woff') format('woff');
+  src: url('../fonts/HACKED.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 body *{
-  font-family: 'HACKED', Arial;
+  font-family: 'HACKED', Arial, sans-serif;
 }
 
 body {
